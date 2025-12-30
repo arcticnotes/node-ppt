@@ -1,0 +1,29 @@
+{
+	"name": "@arcticnotes/node-ppt",
+	"version": "0.0.1",
+	"description": "A Node.js library that connects to Microsoft PowerPoint runtime through Windows Scripting Host.",
+	"author": "Paul <paul@arcticnotes.com>",
+	"license": "MIT",
+	"keywords": [
+		"ppt",
+		"powerpoint"
+	],
+	"homepage": "https://github.com/arcticnotes/node-ppt#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arcticnotes/node-ppt.git"
+	},
+	"bugs": {
+		"url": "https://github.com/arcticnotes/node-ppt/issues"
+	},
+	"type": "module",
+	"exports": {
+		".": "./lib/index.js"
+	},
+	"dependencies": {
+		"@arcticnotes/node-wsh": "0.0.12"
+	},
+	"files": [
+		"/lib/"
+	]
+}
